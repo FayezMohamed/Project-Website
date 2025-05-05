@@ -1,0 +1,46 @@
+body {
+  background-color: #1F2833;
+  font-family: "Roboto-Bold";
+  color: white;
+  text-shadow: 3px 0px 5px black;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+}
+
+#article {
+padding: 10px 20px;
+}
+
+#article:hover {
+  background-color: #14665e;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+img {
+  height: 150px;
+  width: 300px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+h3 {
+  background-color: white;
+  color: black;
+  text-shadow: none;
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 35px;
+      color: #45A29E;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url('Roboto-Bold.ttf') format('truetype');
+}
