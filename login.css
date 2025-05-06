@@ -1,9 +1,13 @@
 body {
-  background-color: #1F2833;
+  /*background-color: #1F2833;*/
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   font-family: "Roboto-Bold";
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 0px 8px black;
 }
 
 #welcome {
